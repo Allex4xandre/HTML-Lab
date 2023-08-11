@@ -1,0 +1,155 @@
+@charset "UTF-8";
+body{
+    background-color:  #4488AA;
+    color: #99EEEE;
+    font-size: 16px;
+    font-family: fonts/Lucinda Bright,liberation;
+}
+
+.imglogo{
+    border-bottom:3px solid #FFFFFF;
+   margin-bottom: 6px;
+   padding-bottom: 15px;
+   text-align: left;
+    
+ }
+
+ul{
+    color: #FFFFFF;
+    line-height: 230%;
+    margin-top: 40px;
+   list-style-image: url(imgs/BrilhoMark.png);
+   font-size: 20px;
+   font-family:fonts/Karla,fonts/Verdana,fonts/Ubuntu;
+}
+
+@font-face{
+    font-family: Karla;
+    src: url(fonts/Karla-VariableFont_wght.ttf);
+}
+
+
+@font-face{
+    font-family: Ubuntu;
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+a.visited{
+    color: #99EEEE ;
+}
+
+ol{
+   list-style: decimal;
+   color: #FFFFFF;
+}
+
+
+.listaTipos{
+    color: #99FFFF;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:50px;
+    line-height: 180%;
+   list-style: disc;
+}
+.tabInfo{
+    border-collapse: collapse;
+    margin-top: 6px;
+    background-color: #FFFFFF;
+    color: #000066;
+    font-size: 15px;
+    font-family: fonts/Karla,Verdana,Ubuntu;
+    
+    
+   
+}
+td,th{
+    border: 3px, solid, #226699;
+    padding: 6px 12px 6px 12px;
+    
+}
+
+
+.linTH{
+    color: #FFFFFF;
+    background-color: #226699;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+.lif{
+    background-color: #FFFFFF;
+    color: #000066;
+}
+.colTH{
+    color: #FFFFFF;
+    background-color: #0066DD;
+    text-align: left;
+}
+
+.titl{
+    color: #99FFFF;
+}
+
+.sele{
+    text-align: center;
+}
+nav{
+    display: block;
+    width: 20%;
+    float:left;
+}
+header{
+    display: block; 
+    margin-bottom: 1px; 
+}
+section{
+    display: block;
+    width: 70%;
+    float: none;
+}
+.imgLogo{
+    border-bottom:3px solid #FFFFFF;
+   margin-bottom: 6px;
+   padding-bottom: 15px;
+   border-bottom:  3;
+    
+ }
+ .ender{
+    text-align: right;
+    line-height: 140%;
+    font-size: 15px;
+    font-family: fonts/Karla,Verdana,Ubuntu;
+    margin-top: -40px;
+}
+.content{
+    margin: auto;
+    width: 250;
+    height: 200px;
+    background-color: pink;
+}
+.btn{
+    background-color: #4488AA;
+    border: whitesmoke;
+}
+.modal{
+    width: 250px;
+    height: 200px;
+    background-color: pink;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%,1%);
+    display: none;
+    animation-duration: 800ms;
+     animation: animate; 
+}
+.tabs{
+    width: 340px;
+    height: 320px;
+}

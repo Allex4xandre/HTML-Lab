@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadas.css">
+    <script src="script1.js" defer></script>
+</head>
+<body>
+    <header><img element class="logosup" src="imgs/ResfGlobLogoDeitado.png" alt="logoresfglob">
+    </header>
+
+    <address element class="ender">
+        <p>
+              Av. Novaya Zemlya,1870
+             <br> 
+             Cel:(21)98765-4321
+             <br>  
+             <a elemente class="mail" href="contato@resfriglob.com.br">contato@resfriglob.com.br</a>
+        </p>
+    </address>
+
+    <section>
+
+    <ul>  
+        <li><a href="apresentação.html" target="_blank">Apresentação</a> </li>
+        <li><a href="tipos.html" target="_blank">Tipos</a> </li>
+        <li><a href="estoque.html" target="_blank">Estoque</a> </li>
+        <li><a href="cadastro.html" target="_blank">Cadastro</a> </li>
+        <li><a href="compras.html" target="_blank">Compras</a> </li>
+         
+    </ul>
+
+</section>
+
+<form autocomplete="on" method="post" class="FormBox" action="cadastro">
+
+     <h2 element class="cads">Cadastro</h2> 
+
+<fieldset element class="FSLinhaInteira">
+
+      <legend>Identificação</legend>
+    
+<div >
+    <p>
+         <label element class="LinhaForm" element class="LabBox"
+         for="">E-mail:</label>
+         <input element class="InpBoxGnd" type="text" name="E-mail" id="iE-mail" required>
+    </p>
+</div>
+   
+<div >
+
+<p> 
+    <label for="">Senha:</label>
+    
+     <input e type="password" name="Senha" id="iSenha">
+
+     <label for="">Confirme:</label>
+     
+     <input type="password" name="Confirme"id="iConfirme">
+    
+</p>
+     
+
+
+</div>
+
+</fieldset>
+    
+
+     <fieldset element class="FSLinhaInteira">
+     <legend>Dados Pessoais</legend>
+
+<div >
+    <p>
+        <label  for="">Nome:</label>
+       <input type="text" name="Name" id="iName">
+    </p>
+        
+       
+</div>
+    
+<div >
+    
+       <label for="">Endereço:</label>
+       <br>
+       <textarea name="Endereço" id="iEnd" cols="30" rows="10">
+       </textarea>
+    
+</div>
+
+<div>  
+    <p>
+       
+        <label for="">Telefone:</label>
+        <input type="text" class="telc"
+        onChange="confctt(this, 8);"
+        name="Telefone" required />
+       
+    
+       <label class="colPri">Celular:</label>
+        <input type="text" class="telc"
+        onChange="confctt(this, 9);"
+        name="Celular" />
+      
+    </p>
+
+</div>
+       
+    
+
+   
+         
+    <div class="ColEsq">
+            <fieldset element class="FSColEsq">
+               
+         <legend>Nascimento</legend>
+
+         <input class="numDD" type="number" id="dia" autocomplete="bday-day"> /
+
+         <input class="numDD" type="number" id="mes" autocomplete="bday-month"> /
+
+         <input class="numQD" type="number" id="ano" autocomplete="bday-year">
+         
+    </div>   
+             
+
+
+<div>  
+     
+        <fieldset element class="FSColDir">
+
+        <legend>Sexo</legend>
+
+         <label for="isexm">Mas</label>
+         <input type="radio" name="" id="">
+         <label for="isexf">Fem</label>
+         <input type="radio" name="" id="">
+         <label for="isexo">Outro</label>
+         <input type="radio" name="" id="">
+      
+     
+</div>
+
+<div class="botoes">
+<p>
+    <input class="btncad" type="button" name="Cadastrar" value="Cadastrar">
+    <input type="reset" value="Limpar">
+</p>
+    
+
+
+</div>
+
+
+    
+    
+    
+
+</form>
+
+    
+</form> 
+  
+</body>
+</html>

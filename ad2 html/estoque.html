@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque</title>
+    <link rel="stylesheet" href="tiposc.css">
+    <link rel="stylesheet" href="preco.css">
+    
+</head>
+<body>
+    <header>
+        <img element class="imgLogo" src="imgs/ResfGlobLogoDeitado.png" alt="logoresfglob">
+    </header>
+    
+
+    <nav>
+        <ul>  
+            <li><a href="apresentação.html" target="_blank">Apresentação</a> </li>
+            <li><a href="tipos.html" target="_blank">Tipos</a> </li>
+            <li><a href="estoque.html" target="_blank">Estoque</a> </li>
+            <li><a href="cadastro.html" target="_blank">Cadastro</a> </li>
+            <li><a href="">Compras</a> </li>
+             
+        </ul>
+    </nav>
+
+
+<address>
+        <p style="text-align: right;">
+              Av. Novaya Zemlya,1870 
+               <br>
+                  Cel:(21)98765-4321
+               <br>
+        </p>   
+</address>
+    
+<address>
+            
+         <p style="text-align: right; color:#FFFFFF;">
+            contato@resfriglob.com.br
+         </p>
+        
+</address>
+
+<table border="2"  element class="tabInfo">
+    <tr>
+        <th colspan="5"  element class="linTH">Estoque</th>
+    </tr>
+
+    <tr>
+        <td element class="linTH">Modelo</td>
+        <td element class="linTH">Foto</td>
+        <td element class="linTH">Preço</td>
+    </tr>
+
+    <tr>
+
+        <td rowspan="2" element class="colTH">
+            
+            <a class="sp12" href="#">Springer Split 12000</a> 
+
+        </td>
+    
+       
+        <td class="sprispli" rowspan="5" > <img class="ss12" src="imgs/vazio.jpg" alt=""></td>
+         <td rowspan="6" element class="preco">R$</td>
+    </tr>
+    
+    <tr>
+    </tr>
+    <tr>
+      <td element class="colTH"> <a class="spm12" href="#">Springer de Parede Midea 12000</a> </td>
+      
+    </tr>
+
+    <tr>
+        <td element class="colTH"> <a class="cp7" href="#">Consul de Parede 7500</a> </td>
+       
+    </tr>
+
+    <tr>
+        <td element class="colTH"><a class="ep9" href="#">Elgin Portátil Eco Cube 9000</a> </td>
+        
+    </tr>
+    
+</table>
+
+
+ <script>
+    
+    var md1 = window.document.body.
+    getElementsByClassName('sp12')[0]
+    var md2 = window.document.body.
+    getElementsByClassName('spm12')[0]
+    var md3 = window.document.body.
+    getElementsByClassName('cp7')[0]
+    var md4 = window.document.body.
+    getElementsByClassName('ep9')[0]
+    var mdpic=window.document.body.
+    getElementsByClassName('ss12')[0]
+    var valor = window.document.body.
+    getElementsByClassName('preco')[0]
+    
+    md1.addEventListener('click', mod1)
+    md2.addEventListener('click', mod2)
+    md3.addEventListener('click', mod3)
+    md4.addEventListener('click', mod4)
+    
+    function mod1() {
+        mdpic.src = 'imgs/SpringerSplit12000.jpg'
+        valor.innerHTML = 'R$1680,00'
+    }
+    function mod2() {
+        mdpic.src = 'imgs/SpringerParede12000.jpg'
+        valor.innerHTML = 'R$1890,00'
+    }
+    function mod3() {
+        mdpic.src = 'imgs/ConsulParede7500.jpg'
+        valor.innerHTML = 'R$1300,00'
+    }
+    function mod4() {
+        mdpic.src = 'imgs/ElginPortatil9000.jpg'
+        valor.innerHTML = 'R$1900,00'
+    }
+</script>
+    
+</body>
+</html>

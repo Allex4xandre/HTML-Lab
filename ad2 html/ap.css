@@ -1,0 +1,102 @@
+
+@charset "UTF-8";
+body{
+    background-color:  #4488AA;
+    color: #99EEEE;
+    font-size: 16px;
+    font-family: Lucinda Bright,liberation;
+}
+header{
+    display: block; 
+    margin-bottom: 1px; 
+}
+nav{
+    display: block;
+    width: 20%;
+    float:left;
+
+}
+section{
+    display: block;
+    width: 70%;
+    float: none;
+    margin: auto;
+}
+
+
+ul{
+   color: #FFFFFF;
+   line-height: 230%;
+   margin-top: 40px;
+   list-style-image: url(BrilhoMark.png);
+   font-size: 20px;
+   font-family: Karla,Verdana,Ubuntu;
+   height: 450px;
+  
+}
+@font-face{
+    font-family: Ubuntu;
+    src: url(Ubuntu-Regular.ttf);
+}
+@font-face{
+    font-family: Karla;
+    src: url(Karla-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Liberation;
+    src: url(LiberationSerif-Regular.ttf);
+}
+@font-face {
+    font-family:Lucinda ;
+    src: url(lucida-bright.ttf);
+}
+
+
+
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+a.visited{
+    color: #99EEEE ;
+}
+
+.ender{
+    text-align: right;
+    line-height: 140%;
+    font-size: 15px;
+    font-family: Karla,Verdana,Ubuntu;
+    margin-top: -40px;
+   
+}
+.apres{
+    text-align: center;
+    size: 18px;
+ 
+    
+}
+.imgLogo{
+   border-bottom:3px solid #FFFFFF;
+  margin-bottom: 6px;
+  padding-bottom: 15px;
+  border-bottom:  3;
+   
+}
+borda{
+    border-bottom:12px 
+    solid
+     #FFFFFF 
+}
+eml{
+    color: #FFFFFF;
+
+}
+address{
+    margin-top: -15;
+   
+}
+.bord{border-bottom:3px solid #FFFFFF 
+}
+

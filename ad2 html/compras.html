@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <link rel="stylesheet" href="comp.css">
+    <script src="script1.js" defer></script>
+    <style>
+
+  .idEmail{
+    width: 160px;
+
+  }
+  
+  .senhaCad{
+    width: px;
+    color: rgb(255, 255, 255);
+}
+
+.loginCad{
+    width: 260px;
+
+}
+
+
+.lisSelProd{
+    width: 370px;
+    color: rgb(255, 255, 255);
+
+}
+
+.selProduto{
+    width: 75%;
+    color: rgb(255, 255, 255);
+}
+
+.btnIncluir{
+    width: 70px;
+     
+}
+.boxPedidos{
+    height: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.lisPedArea{
+    height: 90%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.fsBandeira {
+    width: 8px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+     
+    
+}
+.numCartao{
+    width: 350px;
+    height: 35;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+}
+.valCartao{
+    width: 230px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+}
+.boxParcel{
+    width: 230px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+}
+    </style>
+</head>
+<body>
+    
+    <header>
+        <img element class="logosup" src="imgs/ResfGlobLogoDeitado.png" alt="logoresfglob">
+    </header>
+
+    <address element class="ender">
+        <p>
+              Av. Novaya Zemlya,1870
+             <br> 
+             Cel:(21)98765-4321
+             <br>  
+             <a elemente class="mail" href="contato@resfriglob.com.br">contato@resfriglob.com.br</a>
+        </p>
+    </address>
+
+    <section>
+      
+    <ul>  
+         <li><a href="apresentação.html" target="_blank">Apresentação</a> </li>
+         <li><a href="tipos.html" target="_blank">Tipos</a> </li>
+         <li><a href="estoque.html" target="_blank">Estoque</a> </li>
+         <li><a href="cadastro.html" target="_blank">Cadastro</a> </li>
+         <li><a href="compras.html" target="_blank">Compras</a> </li>
+         
+    </ul>
+
+   </section>
+
+
+      <form autocomplete="on" method="post" element class="FormBox"   action="cadastro">
+
+        <h2 element class="cads">Compras</h2> 
+      
+        <fieldset element   class="FSLinhaInteira">
+            
+            <legend class="leg">Identificação</legend>
+        
+    <div  class="ColEsq">
+
+            <p class="Info" class="idEmail">
+               <label   for="">E-mail:</label>
+               <input type="text" name="Email" id="imail">
+            </p>
+
+        </div>
+       
+        <p  class="senhaCad "> 
+            <label for="">Senha :</label>
+             <input type="password" name="Senha" id="isenha"> 
+        </p>
+
+       <p class="txta">Se você ainda não tem cadastro clique <a class="linkcad" href="cadastro.html">aqui</a>
+            !</p>
+
+     </div>
+         
+    </fieldset>
+
+        <br>
+
+        <fieldset class="FSLinInteira">
+    
+    
+        <legend class="leg">Lista de Compras</legend>
+        
+    
+    <div class="lisSelProd">   
+        <span id="lisSelProd">    
+                  
+    <label class="selProduto" for="">Produtos</label>
+           
+
+    <select name="produtos" required="required" name="selProduto" id="selProduto" >
+
+        <option value="">-----</option>
+
+       
+<optgroup label="Split">
+    <option value="split12000">Springer Split 12000</option>
+</optgroup>
+
+<optgroup label="Parede">
+    <option class="tps" value="midea12000">Springer Midea 12000</option>
+    <option value="consul7500">Consul 7500</option>
+</optgroup>
+
+<optgroup label="Portatil">
+    <option value="port">Elgin Eco Cube 9000</option>
+</optgroup>
+
+
+
+
+    </select>
+    <span class="ColDir" id="btnIncluir"></span>
+<input class="btnIncluir" type="button" value="Incluir" onclick="inclped(selProduto)">
+</div>
+
+
+<textarea class="lisPedArea" id="listaPedidos" cols="30" rows="3"></textarea>
+
+
+
+<div class="labox" >
+    <p>
+       <label  for="TxtTotal">Valor: R$</label> 
+       <input type="text" name="" id="">
+
+    </p>
+</div>
+            
+     </fieldset>
+
+</select>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend class="leg">Dados do Cartão</legend>
+            <div id="numCartao">
+                <p class="numCartao">
+                    <label  for="">Número :</label>
+                    <input class="numDD" type="number">
+                    <input class="numDD" type="number">
+                    <input class="numDD" type="number">
+                    <input class="numDD" type="number">
+                </p>
+            </div>
+
+            <div class="valCartao">
+                <p>
+                 
+                <label for="">Validade : </label>
+                
+                <input class="numDD" type="number">
+                /
+                <input class="numDD" type="number">
+
+                </p>
+
+                
+            </div>
+
+            <div class="boxParcel">
+               <p>
+                 
+                <label for="">Parcelas</label>
+
+                <input class="numDD" type="number" name="" id=""> x Sem Juros
+
+
+               </p>
+
+            </div>
+
+
+        <div class="fsBandeira">
+
+            <fieldset >
+              
+                <legend class="leg">Bandeira</legend>
+              
+            
+             <input type="radio" name="bnd" id="ivisa">
+             <label> Visa </label>
+            
+             <input type="radio" name="bnd" id="imaster">
+             <label> Master </label>
+
+             <input type="radio" name="bnd" id="ielo">
+             <label> Elo </label>
+
+            
+            </fieldset> 
+             
+        </div>
+        
+         <div class="conli">
+    
+             <input  type="button" value="Confirmar">
+
+             <input  type="button" value="Limpar">
+            
+          </div>
+
+ <script>
+            var tabPrcProd =[
+            ["", 0],
+            ["Springer Midea 12000",1890],
+            ["Springer Split 12000", 1680],
+            ["Elgin Eco Cube 9000", 1900],
+            ["Consul 7500", 1300]
+            ];
+        function inclped(slct) {
+        var prod = slct.selectedIndex;
+           if ( prod != 0 ) {
+        var tps = tabPrcProd [prod][0];
+        var cpo = tabPrcProd[prod][1];
+        slct.selectedIndex = 0;
+        with ( slct.form ) {
+        listaPedidos.value += tps + " " +
+        slct.options[prod].text + '\n';
+        TxtTotal.value= cpo + parseInt(TxtTotal.value);
+        }
+        }else{
+        alert("Nenhum Produto selecionado!");
+        }
+        }
+</script>
+          
+</fieldset> 
+</form>
+</body>
+</html>

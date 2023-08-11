@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body{
+    background-color:  #4488AA;
+    color: #99EEEE;
+    font-size: 16px;
+    font-family: fonts/Lucinda Bright,liberation;
+}
+header{
+    display: block; 
+    margin-bottom: 1px; 
+}
+.colTH{
+    color: #FFFFFF;
+    background-color: #0066DD;
+    text-align: left;
+}
+.linTH{
+    color: #FFFFFF;
+    background-color: #226699;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+.imgLogo{
+    border-bottom:3px solid #FFFFFF;
+   margin-bottom: 6px;
+   padding-bottom: 15px;
+   border-bottom:  3;
+    
+ }

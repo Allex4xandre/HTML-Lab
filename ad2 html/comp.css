@@ -1,0 +1,178 @@
+@charset "UTF-8";body{
+    background-color:  #4488AA;
+    color: #99EEEE;
+    font-size: 16px;
+    font-family: Lucinda Bright,liberation;
+}
+
+ul{
+    color: #FFFFFF;
+    line-height: 230%;
+    margin-top: 40px;
+   list-style-image: url(BrilhoMark.png);
+   font-size: 20px;
+   font-family: Karla,Verdana,Ubuntu;
+}
+
+
+.imglogo{
+    border-bottom:3px solid #FFFFFF;
+   margin-bottom: 6px;
+   padding-bottom: 15px;
+   text-align: left;
+    
+ }
+ .ender{
+    text-align: right;
+    line-height: 140%;
+    font-size: 15px;
+    font-family: Karla,Verdana,Ubuntu;
+    margin-top: -40px;
+}
+.logosup{
+    border-bottom:3px solid #FFFFFF;
+   margin-bottom: 6px;
+   padding-bottom: 15px;
+   border-bottom:  3;
+    
+}
+
+nav{
+    display: block;
+    width: 20%;
+    float:left;
+}
+header{
+    display: block; 
+    margin-bottom: 1px; 
+}
+section{
+    display: block;
+    width: 70%;
+    float: none;
+}
+ul{
+    color: #FFFFFF;
+    line-height: 230%;
+    margin-top: 40px;
+   list-style-image: url(BrilhoMark.png);
+   font-size: 20px;
+   font-family: Karla,Verdana,Ubuntu;
+}
+
+@font-face{
+    font-family: Karla;
+    src: url(Karla-VariableFont_wght.ttf);
+}
+
+
+@font-face{
+    font-family: Ubuntu;
+    src: url(Ubuntu-Regular.ttf);
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+a.visited{
+    color: #99EEEE ;
+}
+.LinhaForm{
+    margin: 0px; 
+    min-height: 30px;
+    padding: 6px,3px,0px,3px;
+    
+}
+ .FormBox{
+    width: 520px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #0066DD;
+    border: 3px;
+    color: #000055;
+    font-size: 15px;
+    
+}
+@font-face{
+    font-family: Karla;
+    src: url(Karla-VariableFont_wght.ttf);
+}
+
+
+@font-face{
+    font-family: Ubuntu;
+    src: url(Ubuntu-Regular.ttf);
+}
+
+.LinhaForm{
+    margin: 0px; 
+    min-height: 30px;
+    padding: 6px,3px,0px,3px;
+    
+}
+.LabBox{
+    width: 80px;
+    float: left;
+    display: block;
+}
+
+.leg{
+    margin-right: auto;
+    color:white
+}
+.ColEsq{
+    width: 260px;
+    float: left;
+    display: block;
+    display: inline;
+}
+.LinhaForm{
+    margin: 0px; 
+    min-height: 30px;
+    padding: 6px,3px,0px,3px;
+    
+ }
+ .LabBox{
+    width: 80px;
+    float: left;
+    display: block;
+}
+.txta{
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+.cads{
+    color: white;
+  text-align: center;
+}
+.numDD{
+    width:35px ;
+}
+.Info{
+   
+    color: #ffffff;
+    
+    font-family: Karla,Verdana,Ubuntu;
+} 
+.senhac{
+    color: #FFFFFF;
+}
+.labox{
+    text-align:right ;
+    color: rgb(255, 255, 255);
+}
+ .linkcad{
+    color: #99EEEE;
+ }
+ .conli{
+    text-align: right;
+ }
+ .band{
+  margin-right: auto;
+ }
+ .cltx{
+    color: black;
+ }
